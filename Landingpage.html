@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
     <title>Landing Portfolio</title>
 </head>
 <body>
-    <div class="navbar-container">
+    <nav class="navbar-container">
+        <input type="checkbox"  class="check-box" id="chck-box">
+        <label for="check" class="checkbtn">
+        <i class="fa-solid fa-bars"></i>
+        </label>
         <ul class="navbar">
-            <li class="list-navbar"><a href="#" class="navbar-link">HOME</a></li>
-            <li class="list-navbar"><a href="#" class="navbar-link">PROFILE</a></li>
-            <li class="list-navbar"><a href="#" class="navbar-link">PROJECT</a></li>
-            <li class="list-navbar"><a href="#" class="navbar-link">CONTACT US</a></li>
-            <li class="list-navbar"><a href="#" class="navbar-link">LOG IN</a></li>
+            <li class="list-navbar"><a href="#" class="navbar-link"><i class="fas fa-home"></i>HOME</a></li>
+            <li class="list-navbar"><a href="#" class="navbar-link"><i class="fas fa-user"></i>PROFILE</a></li>
+            <li class="list-navbar"><a href="#" class="navbar-link"><i class="fas fa-tasks"></i>PROJECT</a></li>
+            <li class="list-navbar"><a href="#" class="navbar-link"><i class="fas fa-envelope"></i>CONTACT US</a></li>
+             <li class="list-navbar"><a href="#" class="list-navbar-darkmode"><i class="fas fa-sun"></i>LIGHT MODE</a></li>
+            <li class="list-navbar"><a href="#" class="navbar-link"><i class="fas fa-sign-in-alt"></i>LOG IN</a></li>
         </ul>
-    </div>
+    </nav>
     <main class="main-landing">
         <div class="container-landing">
             <h1 class="landing-welcome">WELCOME TO MY PRACTICE PORTFOLIO OF WEBSITE</h1>
@@ -27,10 +36,17 @@
                         <img  class="image1" src="image.jpg">
                     </div>
             </div>
-
-            
-           
-            
-    </main>    
+    </main>
+    <hr>
+    <section class="aboutme">
+        <h1>Hi it's <span>me Ferdz learning for the creating a web</span></h1>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fab fa-google"></i></a>
+            <a href="https://www.tiktok.com/"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+        </div>
+        <span class="learnmore">If you want to learn click the link <a href="https://www.w3schools.com/">PRACTICE CODING</a></span>
+    </section>    
 </body>
 </html>
