@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="landing.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 
     <title>Landing Portfolio</title>
@@ -13,10 +12,10 @@
 <body>
     <nav class="navbar-container">
         <input type="checkbox"  class="check-box" id="chck-box">
-        <label for="check" class="checkbtn">
-        <i class="fa-solid fa-bars"></i>
+        <label for="chck-box" class="checkbtn">
+        <i class="fa-solid fa-bars" onclick="toggleEMenu()"></i>
         </label>
-        <ul class="navbar">
+        <ul class="navbar" id="menulist">
             <li class="list-navbar"><a href="#" class="navbar-link"><i class="fas fa-home"></i>HOME</a></li>
             <li class="list-navbar"><a href="#" class="navbar-link"><i class="fas fa-user"></i>PROFILE</a></li>
             <li class="list-navbar"><a href="#" class="navbar-link"><i class="fas fa-tasks"></i>PROJECT</a></li>
@@ -47,6 +46,21 @@
             <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
         </div>
         <span class="learnmore">If you want to learn click the link <a href="https://www.w3schools.com/">PRACTICE CODING</a></span>
-    </section>    
+
+    </section>  
 </body>
+    <script>
+    let menulist = document.getElementById('menulist')
+    menulist.style.maxHeight = '0px';
+
+    function toggleEMenu(){
+        if(menulist.style.maxHeight == '0px'){
+            menulist.style.maxHeight = '300px';
+
+        }
+        else{
+            menulist.style.maxHeight = '0px';
+        }
+    }
+</script> 
 </html>
