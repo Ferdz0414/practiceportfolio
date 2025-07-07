@@ -154,16 +154,24 @@ body{
             width: calc(100% + 8px);      
     }
 }
+.fab{
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: inset 0 0 10px black;
+    margin-top: 20px;
+}
 .image-container img{
-    width: 40%;
-    height: 45vh;
+    width: 30%;
+    height: 30vh;
     border: transparent;
     border-radius: 50px;
     padding: 10px;
     box-shadow:  rgb(26, 25, 25) 0 0 10px;
     margin-top: -200px;
     position: relative;
-    left: 900px;
+    left: 800px;
 }
 /*for darkmode*/
 .list-navbar-darkmode{
@@ -239,7 +247,7 @@ display: none;
 
 }
 /*frame for Media tablet*/
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   body {
     background-color: lightblue;
     display: block;
@@ -259,4 +267,8 @@ display: none;
     background-color: lightblue;
     display: block;
   }
+} */
+.aboutme{
+    justify-items: center;
+    align-items: center;
 }
