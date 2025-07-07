@@ -5,11 +5,11 @@
     outline: none;
 }
 body{
-    background-color: white;
+    background-color: rgb(7, 7, 7);
     overflow-x: hidden;
 }
 .navbar-container{
-    background-color: rgb(15, 119, 119);
+    background-color: rgb(12, 161, 161);
     padding: 30px;
     position: relative;
     
@@ -47,7 +47,7 @@ body{
     padding: 10px;
 }
 .navbar-link:hover{
-    background-color: rgb(9, 117, 131);
+    background-color: rgb(3, 62, 66);
     color: white;
     width: 600px;
     transition: all ease-out 1s;
@@ -68,22 +68,26 @@ body{
 .main-landing{
     width: 100%;
     height: 50vh;
-    background-color: white;
+    background-color: rgb(15, 15, 15);
     
 }
 .container-landing{
     width: 50%;
     height: 90%;
     padding: 10px;
-    margin: 10px 10px 0 10px;
+    margin: 5px 10px 0 10px;
 }
 .landing-welcome{
     text-align: center;
-    margin-top: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(15, 15, 15);
-    font-size: 35px;
-    background-image:  linear-gradient(rgb(14, 201, 170), rgb(14, 221, 124), rgb(16, 103, 235) );
+    margin-top: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: transparent;
+    font-size: 3rem;
+    background-image:  linear-gradient(rgb(231, 116, 226), rgb(52, 92, 223), rgb(140, 252, 227) );
+    -webkit-background-clip: text;
+    position: relative;
+    background-size: 400% 100%;
 }
 .landing-technology{
     text-align: center;
@@ -98,20 +102,20 @@ body{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
-    color: black;
+    color: rgb(248, 247, 247);
 }
 /*For Animation of text*/
 .animated-text{
     font-size: 30px;
     font-weight: 600;
     min-width: 280px;
-    color: black;
+    color: rgb(252, 249, 249);
     text-align: center;
 }
 .animated-text span{
     margin: 10px;
     position: relative;
-    color: black;
+    color: rgb(248, 244, 244);
 }
 .animated-text span::before{
     content: "STUDENT";
@@ -159,12 +163,16 @@ body{
     border: none;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: inset 0 0 10px black;
-
+    background-color: rgb(27, 29, 31);
+    color: rgb(236, 149, 149);
+    box-shadow: inset 0 0 10px rgb(7, 138, 214);
+    
 }
 .social-icons{
     font-size: 18px;
     margin-top: 20px;
+    
+
 
 }
 .fab:hover,.practice-link:hover{
@@ -172,7 +180,8 @@ body{
     border: none;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: inset 0 0 10px black;
+    color: black;
+    box-shadow: inset 0 0 10px rgb(2, 2, 2);
     background-color: aqua;
 }
 .learnmore{
@@ -180,21 +189,23 @@ body{
 }
 .practice-link{
     text-decoration: none;
-    color: black;
+    color: rgb(247, 241, 241);
     font-size: 18px;
     border: none;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: inset 0 0 10px black;
+    box-shadow: inset 0 0 10px rgb(7, 138, 214);
 }
 .image-container img{
-    width: 30%;
+    width: 40%;
     height: 45vh;
     border: transparent;
     border-radius: 50px;
     padding: 10px;
-    box-shadow:  rgb(26, 25, 25) 0 0 10px;
-    margin-top: -320px;
+    box-shadow: inset rgb(26, 25, 25) 0 0 10px;
+    box-sizing: border-box;
+    filter: drop-shadow(50%);
+    margin-top: -335px;
     position: relative;
     left: 800px;
 }
@@ -274,7 +285,6 @@ display: none;
 /*frame for Media tablet*/
 @media (min-width: 768px) {
   body {
-    background-color: lightblue;
     display: block;
   }
  
@@ -296,4 +306,49 @@ display: none;
 .aboutme{
     justify-items: center;
     align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50vh;
+}
+.titleh1{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(255, 254, 254);
+}
+.text-aboutme{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    border: none;
+    margin: 5px;
+    font-weight: bold;
+
+}
+.text-about-me{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: inset 0 0 10px rgb(77, 187, 231);
+}
+.text-about-me:hover{
+    box-shadow: inset 0 0 10px rgb(77, 187, 231);
+    background-color: aqua;
+    padding: 10px;
+    margin-top: 15px;
+    color: black;
 }
