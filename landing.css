@@ -364,9 +364,17 @@ h2{
 }
 .about-me-details{
     color: white;
-    margin: -400px 0 0 600px;
+    margin: -470px 0 0 600px;
     border: transparent;
     border-radius: 5px;
     display: block;
-    text-align: center;
+    position: relative;
+}
+.text-aboutme-paragraph,
+.text-aboutme-details{
+    font-size: 18px;
+    margin: 10px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
