@@ -312,8 +312,8 @@ display: none;
     width: 30%;
     height: 50vh;
     background-color: rgb(14, 13, 13);
-    border: inset white;
     border-radius: 5px;
+    box-shadow: inset 0 0 10px white;
 }
 .titleh1{
     font-size: 25px;
@@ -369,11 +369,19 @@ h2{
     border-radius: 5px;
     display: block;
     position: relative;
+    box-shadow: inset 0 0 10px white;
 }
-.text-aboutme-paragraph,
-.text-aboutme-details{
+.text-aboutme-paragraph{
     font-size: 18px;
     margin: 10px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+.text-aboutme-details{
+    font-size: 18px;
+    margin: 10px 0 0 20px;
     position: relative;
     font-family: 'Times New Roman', Times, serif;
     
