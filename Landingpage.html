@@ -19,9 +19,9 @@
             <li class="list-navbar"><a href="#home" class="navbar-link"><i class="fas fa-home"></i>HOME</a></li>
             <li class="list-navbar"><a href="#aboutme" class="navbar-link"><i class="fas fa-user"></i>PROFILE</a></li>
             <li class="list-navbar"><a href="#projects" class="navbar-link"><i class="fas fa-tasks"></i>PROJECT</a></li>
-            <li class="list-navbar"><a href="#" class="navbar-link"><i class="fas fa-envelope"></i>CONTACT US</a></li>
+            <li class="list-navbar"><a href="#contactus" class="navbar-link"><i class="fas fa-mobile-alt"></i>CONTACT US</a></li>
              <li class="list-navbar"><a href="#" class="list-navbar-darkmode"><i class="fas fa-sun"></i>LIGHT MODE</a></li>
-            <li class="list-navbar"><a href="#" class="navbar-link"><i class="fas fa-sign-in-alt"></i>LOG IN</a></li>
+            <li class="list-navbar"><a href="#login" class="navbar-link"><i class="fas fa-sign-in-alt"></i>LOG IN</a></li>
         </ul>
     </nav>
     <main class="main-landing"  id="home">
@@ -102,7 +102,7 @@
             </a>
         </div>       
     </section>
-    <section class="contact">
+    <section class="contact" id="contactus">
         <h1 class="contact-h1">CONTACT ME</h1>
         <p class="paragraph-inquire">For More Inquires or Concern May Contact Below this text</p>
         <div class="inquire-contact">
@@ -118,11 +118,38 @@
             <p class="contact-me">+639 69358 6341</p>
          </div>
         <div class="inquire-contact-3">
-             <i class="fas fa-comment-dots"></i>
-            <p class="chat-me"> Chat with us </p>
-            <div class="message"></div>
+             <p class="chat-me"> Chat with us <i class="fas fa-comment-dots"></i></p>
+            <fieldset class="fieldset">
+                <input type="text" class="text-message">
+                <button class="btn-message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </fieldset>
          </div>
+    </section>
+    <hr>
 
+    <section class="login" id="login">
+        <div class="form">
+            <form action="#" method="post">
+                <h1 class="loginh1">Log in your Account</h1>
+                <p class="paragraph-text-noted">Kindly Fill out the Form</p>
+                <div class="foremail">
+                <label for="" class="emaillabel">Email:</label>
+                <input type="text"  placeholder="Email" required class="emailtext">
+                </div>
+                <div class="forpassword">
+                    <label for="" class="passwordlabel">Password:</label>
+                    <input type="password"  placeholder="Password" required class="passwordtext">
+                </div>
+                <p class="paragraph-register">If you don't have an Account kindly click here! <a href="#" class="register-link">Register</a></p>
+            </form>
+            <div class="btn-container">
+                <button class="btn-submit">Submit</button>
+                <button class="cancel">Cancel</button>
+            </div>
+        <div class="border-form-footer"><p class="text-area">This is for log in Area</p></div>
+        </div>
     </section>
 
     
