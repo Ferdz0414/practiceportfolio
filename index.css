@@ -166,14 +166,13 @@ body{
     background-color: rgb(27, 29, 31);
     color: rgb(236, 149, 149);
     box-shadow: inset 0 0 10px rgb(7, 138, 214);
+    position: relative;
     
 }
 .social-icons{
     font-size: 18px;
     margin-top: 20px;
-    
-
-
+    position: relative;
 }
 .fab:hover,.practice-link:hover{
     font-size: 18px;
@@ -277,36 +276,12 @@ display: none;
     color: black;
 }
 
-
-
-
-
 }
-/*frame for Media tablet*/
-@media (min-width: 600px) {
-  body {
-    display: block;
-  }
- 
-}
-/*frame for Media Laptop and Desktop
-@media only screen and (min-width: 992px){
-  body {
-    background-color: lightblue;
-    display: block;
-  }
-}
-/*frame for Media TV or any device of larger screen*
-@media only screen and (min-width: 1200px){
-  body {
-    background-color: lightblue;
-    display: block;
-  }
-} */
 .aboutme{
     background-color: transparent;
     width: 100%;
     height: 60vh;
+    position: relative;
 }
 .aboutme-container{
     width: 30%;
@@ -324,6 +299,7 @@ display: none;
     font-weight: bold;
     color: rgb(255, 255, 255);
     text-align: center;
+    position: relative;
 }
 h2{
     font-size: 25px;
@@ -332,6 +308,7 @@ h2{
     font-weight: bold;
     color: rgb(255, 254, 254);
     text-align: center;
+    position: relative;
 }
 .text-aboutme{
     font-size: 20px;
@@ -341,6 +318,7 @@ h2{
     margin: 5px 0 0 -650px;
     font-weight: bold;
     text-align: center;
+    position: relative;
 }
 .text-about-me{
     width: 50%;
@@ -381,6 +359,7 @@ h2{
     margin: 10px;
     position: relative;
     font-family: 'Times New Roman', Times, serif;
+    position: relative;
     
 }
 .text-aboutme-details{
@@ -391,6 +370,7 @@ h2{
     text-align: center;
     margin-top: 10px;
     padding: 10px;
+    position: relative;
 }
 .projects{
     width: 100%;
@@ -490,6 +470,7 @@ h2{
     height: 80vh;
     background-color: white;
     overflow: hidden;
+    position: relative;
 }
 .contact-h1{
     text-align: center;
@@ -498,6 +479,7 @@ h2{
     font-size: 25px;
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
 }
 .paragraph-inquire{
     align-items: center;
@@ -518,6 +500,7 @@ h2{
     box-shadow:0 0 10px black;
     background-color: black;
     margin-top: 50px;
+    position: relative;
 
 }
 .fa-facebook-square{
@@ -529,6 +512,7 @@ h2{
     background-color: white;
     margin-top: -2px;
     color: black;
+    position: relative;
 }
 .fa-facebook-square:hover{
     font-size: 150px;
@@ -539,6 +523,7 @@ h2{
     text-align: center;
     margin: 5px;
     font-size: 15px;
+    position: relative;
 }
 .inquire-contact-1{
     width: 10%;
@@ -549,6 +534,7 @@ h2{
     box-shadow:0 0 10px black;
     background-color: black;
     margin-top: -189px;
+    position: relative;
 
 }
 .fa-envelope{
@@ -563,6 +549,7 @@ h2{
     width: 90%;
     height: 15vh;
     text-align: center;
+    position: relative;
     
 }
 .fa-envelope:hover{
@@ -580,6 +567,7 @@ h2{
     text-align: center;
     margin: 5px;
     font-size: 15px;
+    position: relative;
 }
 .inquire-contact-2{
     width: 10%;
@@ -590,6 +578,7 @@ h2{
     box-shadow:0 0 10px black;
     background-color: black;
     margin-top: -189px;
+    position: relative;
 
 }
 .fa-phone{
@@ -604,6 +593,7 @@ h2{
     width: 90%;
     height: 15vh;
     text-align: center;
+    position: relative;
 }
 .fa-phone:hover{
     font-size: 150px;
@@ -619,6 +609,7 @@ h2{
     text-align: center;
     margin: 5px;
     font-size: 15px;
+    position: relative;
 
 }
 .inquire-contact-3{
@@ -630,6 +621,7 @@ h2{
     box-shadow:0 0 10px black;
     background-color: rgb(248, 248, 248);
     margin-top: 50px;
+    position: relative;
 }
 .fa-comment-dots{
     border: none;
@@ -641,6 +633,7 @@ h2{
     display: block;
     font-size: 25px;
     margin-left: 430px;
+    position: relative;
 }
 .chat-me{
     color: rgb(15, 15, 15);
@@ -650,6 +643,7 @@ h2{
     border: transparent;
     border-radius: 10px;
     width: 100%;
+    position: relative;
 }
 
 .fieldset{
@@ -657,6 +651,7 @@ h2{
     height: 28vh;
     border: transparent;
     border-radius: 10px;
+    position: relative;
 }
 .text-message{
     width: 89%;
@@ -665,6 +660,7 @@ h2{
     border: transparent;
     border-radius: 10px;
     box-shadow: inset 0 0 10px black;
+    position: relative;
 }
 .btn-message{
     width: 10%;
@@ -673,6 +669,7 @@ h2{
     border-radius: 10px;
     box-shadow: inset 0 0 10px rgb(5, 5, 5);
     cursor: pointer;
+    position: relative;
 }
 .btn-message:hover{
     background-color: aqua;
@@ -696,7 +693,9 @@ h2{
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(103, 211, 146);
     background-color: rgb(2, 2, 2);
+    position: relative;
 }
+
 .loginh1{
     text-align: center;
     border: none;
@@ -704,16 +703,19 @@ h2{
     box-shadow: 0 0 10px black;
     padding: 10px;
     background-image: linear-gradient(rgb(72, 233, 198),rgb(15, 167, 238));
+    position: relative;
 }
 .paragraph-text-noted{
     text-align: center;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     margin: 15px;
+    position: relative;
 }
 .foremail{
     margin-top: 50px;
     display: block;
+    position: relative;
 }
 .emaillabel{
     width: 10%;
@@ -721,6 +723,7 @@ h2{
     margin-left: 10px;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
+    position: relative;
 }
 .emailtext{
     border: transparent;
@@ -731,10 +734,12 @@ h2{
     text-align: center;
     padding: 5px;
     margin-left: 10px;
+    position: relative;
 }
 .forpassword{
     margin-top: 20px;
     display: block;
+    position: relative;
 }
 .passwordlabel{
     width: 10%;
@@ -743,6 +748,7 @@ h2{
     padding: 10px;
     margin-left: 10px;
     font-family: 'Times New Roman', Times, serif;
+    position: relative;
 }
 .passwordtext{
     border: transparent;
@@ -753,6 +759,7 @@ h2{
     text-align: center;
     padding: 5px;
     margin-left: 10px;
+    position: relative;
 }
 .paragraph-register{
     text-align: center;
@@ -761,6 +768,7 @@ h2{
     gap: 2rem;
     font-family: 'Times New Roman', Times, serif;
     color: white;
+    position: relative;
 }
 .register-link{
     border: none;
@@ -773,6 +781,7 @@ h2{
     text-decoration: none;
     color: white;
     cursor: pointer;
+    position: relative;
 }
 .register-link:hover{
     background-color: aqua;
@@ -785,12 +794,14 @@ h2{
     height: 5vh;
     margin-top: 30px;
     box-shadow: 0 0 10px aquamarine;
+    position: relative;
 }
 .text-area{
     color: rgb(7, 7, 7);
     text-align: center;
     font-size: 18px;
     padding-top: 10px;
+    position: relative;
 }
 .btn-container{
     justify-content: center;
@@ -821,4 +832,32 @@ h2{
     text-align: center;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
+}
+/*frame for Media tablet*/
+@media (min-width: 600px) and (min-width:899px){
+  body {
+    display: block;
+  }
+ 
+}
+/*frame for Desktop*/
+@media (min-width: 1200px){
+  body {
+    display: block;
+  }
+ 
+}
+/*frame for Laptop*/
+@media (min-width: 900px) and (min-width: 1199px){
+  body {
+    display: block;
+  }
+ 
+}
+/*frame for Mobile*/
+@media (min-width: 0) and (min-width: 599){
+  body {
+    display: block;
+  }
+ 
 }
