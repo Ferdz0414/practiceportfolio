@@ -850,7 +850,7 @@ h2{
     height: 90vh;
 }
   .image-container img{
-    top: 10px;
+    top: -5px;
     width: 50%;
     height: 80vh;
     margin-left: -100px;
