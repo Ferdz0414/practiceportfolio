@@ -834,7 +834,7 @@ h2{
     font-family: 'Times New Roman', Times, serif;
 }
 /*frame for Media tablet*/
-@media (min-width: 600px) and (min-width:899px){
+@media (min-width: 600px) and (max-width:899px){
   body {
     display: block;
   }
@@ -849,15 +849,11 @@ h2{
     width: 100%;
     height: 90vh;
 }
-  .image-container{
+  .image-container img{
     top: 10px;
-    width: 100%;
-    height: 90vh;
-    
-  }
-  .image1{
-    max-width: 90%;
-    max-height: 90vh;
+    width: 50%;
+    height: 80vh;
+    margin-left: -100px;
   }
   .aboutme{
     width: 100%;
