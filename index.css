@@ -843,15 +843,210 @@ h2{
 /*frame for Desktop*/
 @media (min-width: 1200px){
   body {
-    display: block;
+    display: flexbox;
   }
- 
+
+  .image-container{
+    margin-top: -30px;
+    width: 90%;
+  }
+  .aboutme{
+    width: 100%;
+    height: 90vh;
+  }
+  .aboutme-container{
+    top: 30px;
+    width: 35%;
+    height: 69vh;
+  }
+  .about-me-details{
+    margin-top: -500px;
+    width: 60%;
+    height: 80vh;
+    right: 30px;
+    text-align: center;
+
+  }
+    .text-aboutme{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: -150px;
+  }
+  .projects{
+    width: 100%;
+    height: 90vh;
+  }
+ .image-project{
+    top: 5px;
+    right: -35px;
+    position: relative;
+  }
+  .image-project1{
+    top: 95px;
+    right: 60px;
+    position: relative;
+  }
+  .image-project2{
+    top: 190px;
+    right: 150px;
+    position: relative;
+
+  }
+  .contact{
+    width: 100%;
+    height: 90vh;
+  }
+  .inquire-contact{
+    right: 250px;
+    height: 23vh;
+    
+  }
+ .fa-facebook-square{
+    font-size: 120px;
+    text-align: center;
+     top: -30px; 
+ }
+  .fa-facebook-square:hover{
+    font-size: 150px;
+    text-align: center;
+    top: -30px;
+    
+ }
+ .follow-facebook{
+    font-size: 18px;
+    top: -20px;
+ }
+ .inquire-contact-1{
+    right: 300px;
+    height: 23vh;
+    top: 25px;
+    
+  }
+   .fa-envelope{
+    font-size: 120px;
+    text-align: center;
+     top: -30px; 
+ }
+  .fa-envelope:hover{
+    font-size: 150px;
+    text-align: center;
+    top: -30px;
+    
+ }
+ .follow-gmail{
+    font-size: 18px;
+    top: -20px;
+ }
+  .inquire-contact-2{
+    right: 290px;
+    height: 23vh;
+    top: 50px;
+    
+  }
+   .fa-phone{
+    font-size: 100px;
+    text-align: center;
+     top: -30px; 
+ }
+  .fa-phone:hover{
+    font-size: 150px;
+    text-align: center;
+    top: -30px;
+    
+ }
+ .contact-me{
+    font-size: 18px;
+    top: -20px;
+ }
+ .inquire-contact-3{
+    right: 299px;
+    top: -80px;
+ }
+ .chat-me{
+    text-align: center;
+    margin-top: -20px;
+ }
+ .fa-comment-dots{
+    right: 50px;
+    font-size: 45px;
+    width: 10%;
+    height: 5vh;
+    top: -10px;
+ }
+  
 }
+
 /*frame for Laptop*/
 @media (min-width: 900px) and (min-width: 1199px){
   body {
-    display: block;
+    display: flexbox;
   }
+  .main-landing{
+    width: 100%;
+    height: 60vh;
+  }
+    .image-container{
+        width: 100%;
+        margin-top: -10px;
+        position: relative;
+  }
+  .image1{
+   
+    position: relative;
+  }
+  .container-landing{
+    margin-top: -30px;
+  }
+    .aboutme{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+  }
+  .aboutme-container{
+    top: 75px;
+    width: 35%;
+    height: 69vh;
+    right: -10px;
+    position: relative;
+  }
+  .about-me-details{
+    top: 25px;
+    width: 60%;
+    height: 80vh;
+    right: 30px;
+    text-align: center;
+    position: relative;
+
+  }
+  .text-aboutme{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+   .projects{
+    width: 100%;
+    height: 90vh;
+  }
+ .image-project{
+    top: 5px;
+    right: -35px;
+    position: relative;
+  }
+  .image-project1{
+    top: 95px;
+    right: 60px;
+    position: relative;
+  }
+  .image-project2{
+    top: 190px;
+    right: 150px;
+    position: relative;
+
+  }
+
  
 }
 /*frame for Mobile*/
