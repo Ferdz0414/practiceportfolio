@@ -843,15 +843,21 @@ h2{
 /*frame for Desktop*/
 @media (min-width: 1200px){
   body {
-    display: flexbox;
+    display: block;
   }
 .main-landing{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
 }
   .image-container{
     top: 10px;
-    width: 90%;
+    width: 100%;
+    height: 90vh;
+    
+  }
+  .image1{
+    max-width: 90%;
+    max-height: 90vh;
   }
   .aboutme{
     width: 100%;
@@ -982,7 +988,7 @@ h2{
 }
 
 /*frame for Laptop*/
-@media (min-width: 900px) and (min-width: 1199px){
+@media (min-width: 900px) and (max-width: 1199px){
   body {
     display: flexbox;
   }
@@ -1053,7 +1059,7 @@ h2{
  
 }
 /*frame for Mobile*/
-@media (min-width: 0) and (min-width: 599){
+@media (min-width: 0) and (max-width: 599px){
   body {
     display: block;
   }
