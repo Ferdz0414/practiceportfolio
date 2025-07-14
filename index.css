@@ -834,11 +834,9 @@ h2{
     font-family: 'Times New Roman', Times, serif;
 }
 
- 
-}
 
-/*Frame Large size of Desktop*/
-@media screen and and (min-width: 1366px) and (max-width: 1919px) {
+/*Frame Large size of Desktop
+@media(min-width: 1366px) and (max-width: 1919px) {
   body {
     display: block;
   }
@@ -857,12 +855,12 @@ h2{
     height: 90vh;
   }
   .aboutme-container{
-    top: 20px;
+    top: -50;
     width: 35%;
     height: 69vh;
   }
   .about-me-details{
-    margin-top: -500px;
+    margin-top: -100px;
     width: 60%;
     height: 80vh;
     right: 20px;
@@ -981,9 +979,9 @@ h2{
 
     
 }
-
+*/
 /*frame for Desktop*/
-@media (min-width: 1200px){
+@media (min-width: 1200px) and (min-width: 1366px) and (max-width: 1919px) {
   body {
     display: block;
   }
@@ -1200,7 +1198,7 @@ h2{
   body {
     display: block;
   }
-
+}
 
 
 /*frame for Mobile*/
