@@ -1000,13 +1000,13 @@ h2{
     height: 100vh;
   }
   .aboutme-container{
-    top: 90px;
+    top: 135px;
     width: 35%;
     height: 69vh;
     position: relative;
   }
   .about-me-details{
-    top: -60px;
+    top: -20px;
     width: 50%;
     height: 71vh;
     right: -150px;
