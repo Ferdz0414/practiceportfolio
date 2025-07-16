@@ -1000,15 +1000,15 @@ h2{
     height: 90vh;
   }
   .aboutme-container{
-    top: 30px;
+    top: 10px;
     width: 35%;
     height: 69vh;
   }
   .about-me-details{
-    margin-top: -500px;
-    width: 60%;
-    height: 80vh;
-    right: 30px;
+    top: -140px;
+    width: 50%;
+    height: 71vh;
+    right: -150px;
     text-align: center;
 
   }
@@ -1029,13 +1029,13 @@ h2{
     position: relative;
   }
   .image-project1{
-    top: 95px;
-    right: 60px;
+    top: 1px;
+    right: -10px;
     position: relative;
   }
   .image-project2{
-    top: 190px;
-    right: 150px;
+    top: 1px;
+    right: 15px;
     position: relative;
 
   }
