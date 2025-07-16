@@ -1006,7 +1006,7 @@ h2{
     position: relative;
   }
   .about-me-details{
-    top: -20px;
+    top: 10px;
     width: 50%;
     height: 71vh;
     right: -150px;
