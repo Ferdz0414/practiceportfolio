@@ -595,12 +595,10 @@ h2{
     border: none;
     border-radius: 5px;
     padding: 10px;
-    background-color: white;
     color: rgb(7, 7, 7);
-    box-shadow: inset 0 0 10px rgb(8, 8, 8);
     display: block;
     font-size: 25px;
-    margin-left: 430px;
+    margin-left: 400px;
     position: relative;
 }
 .chat-me{
@@ -925,7 +923,7 @@ h2{
   .inquire-contact-2{
     right: 390px;
     height: 23vh;
-    top: 60px;
+    top: 50px;
     
   }
    .fa-phone{
@@ -945,7 +943,7 @@ h2{
  }
  .inquire-contact-3{
     right: 429px;
-    top: -80px;
+    top: -50px;
  }
  .chat-me{
     text-align: center;
