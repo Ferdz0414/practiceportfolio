@@ -285,6 +285,7 @@ display: none;
 .aboutme-container{
     border-radius: 5px;
     position: relative;
+    text-align: center;
 }
 .titleh1{
     font-size: 25px;
@@ -991,14 +992,14 @@ h2{
     top: 100px;
     width: 35vw;
     height: 69vh;
-    left: -50px;
+    left: -90px;
     position: relative;
   }
   .about-me-details{
     top: 110px;
     width: 45vw;
     height: 90vh;
-    right: 50px;
+    right: 5px;
     position: relative;
 
   }
