@@ -464,7 +464,6 @@ h2{
     height: 20vh;
     border: none;
     border-radius: 10px;
-    margin-left: 600px;
     box-shadow:0 0 10px black;
     background-color: black;
     margin-top: 50px;
@@ -498,10 +497,8 @@ h2{
     height: 20vh;
     border: none;
     border-radius: 10px;
-    margin-left: 850px;
     box-shadow:0 0 10px black;
     background-color: black;
-    margin-top: -189px;
     position: relative;
 
 }
@@ -542,10 +539,8 @@ h2{
     height: 20vh;
     border: none;
     border-radius: 10px;
-    margin-left: 1100px;
     box-shadow:0 0 10px black;
     background-color: black;
-    margin-top: -189px;
     position: relative;
 
 }
@@ -582,13 +577,11 @@ h2{
 }
 .inquire-contact-3{
     width: 30%;
-    height: 38vh;
+    height: 55vh;
     border: none;
     border-radius: 10px;
-    margin-left: 1330px;
     box-shadow:0 0 10px black;
     background-color: rgb(248, 248, 248);
-    margin-top: 50px;
     position: relative;
 }
 .fa-comment-dots{
@@ -597,7 +590,6 @@ h2{
     padding: 10px;
     background-color: white;
     color: rgb(7, 7, 7);
-    box-shadow: inset 0 0 10px rgb(8, 8, 8);
     display: block;
     font-size: 25px;
     margin-left: 430px;
@@ -624,7 +616,7 @@ h2{
 .text-message{
     width: 89%;
     height: 5vh;
-    margin-top: 260px;
+    margin-top: 285px;
     border: transparent;
     border-radius: 10px;
     box-shadow: inset 0 0 10px black;
@@ -877,13 +869,22 @@ h2{
 
   }
   .contact{
-    width: 100%;
+    width: 100vw;
     height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact-h1{
+    left: 600px;
+  }
+  .paragraph-inquire{
+    right: -250px;
   }
   .inquire-contact{
     right: 250px;
     height: 23vh;
-    
+    top: 200px;
+
   }
  .fa-facebook-square{
     font-size: 120px;
@@ -893,18 +894,16 @@ h2{
   .fa-facebook-square:hover{
     font-size: 150px;
     text-align: center;
-    top: -30px;
-    
+    top: -30px; 
  }
  .follow-facebook{
     font-size: 18px;
     top: -20px;
  }
  .inquire-contact-1{
-    right: 300px;
+    right: 230px;
     height: 23vh;
-    top: 25px;
-    
+    top: 249px;
   }
    .fa-envelope{
     font-size: 120px;
@@ -922,10 +921,9 @@ h2{
     top: -20px;
  }
   .inquire-contact-2{
-    right: 290px;
+    right: 210px;
     height: 23vh;
-    top: 50px;
-    
+    top: 249px;
   }
    .fa-phone{
     font-size: 100px;
@@ -943,12 +941,12 @@ h2{
     top: -20px;
  }
  .inquire-contact-3{
-    right: 299px;
-    top: -80px;
+    left: 950px;
+    top: 10px;
  }
  .chat-me{
     text-align: center;
-    margin-top: -20px;
+    margin-top: -1px;
  }
  .fa-comment-dots{
     right: 50px;
