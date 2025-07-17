@@ -356,10 +356,9 @@ h2{
     position: relative;
 }
 .projects{
-    width: 100%;
+    width: 100vw;
     height: 60vh;
     background-color: transparent;
-    margin-top: 20px;
     position: relative;
 }
 .projecttitle{
@@ -384,9 +383,8 @@ h2{
 
 }
 .image-project{
-    width: 40%;
+    width: 40vw;
     height: 40vh;
-    margin: 50px 0 0 20px;
     display: flex;
     position: relative;
     
@@ -394,7 +392,6 @@ h2{
 }
 .project-image1{
     width: 70%;
-    border: outset 10px rgb(34, 223, 166);
     border-radius: 10px;
     position: relative;
     cursor: pointer;
@@ -402,7 +399,6 @@ h2{
 .image-project1{
     width: 40%;
     height: 40vh;
-    margin: -379px 0 0 600px;
     display: flex;
     position: relative;
 
@@ -410,7 +406,6 @@ h2{
 .project-image2{
     width: 70%;
     box-shadow: 0 0 10px black;
-    border: outset 10px rgb(34, 223, 166);
     border-radius: 10px;
     position: relative;
     cursor: pointer;
@@ -418,7 +413,6 @@ h2{
 .image-project2{
     width: 40%;
     height: 40vh;
-    margin: -379px 0 0 1180px;
     display: flex;
     position: relative;
 
@@ -426,7 +420,6 @@ h2{
 .project-image3{
     width: 70%;
     box-shadow: 0 0 10px black;
-    border: outset 10px rgb(34, 223, 166);
     border-radius: 10px;
     position: relative;
     cursor: pointer;
@@ -816,153 +809,6 @@ h2{
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
-
-
-/*Frame Large size of Desktop
-@media(min-width: 1366px) and (max-width: 1919px) {
-  body {
-    display: block;
-  }
-.main-landing{
-    width: 100%;
-    height: 90vh;
-}
-  .image-container img{
-    top: -5px;
-    width: 50%;
-    height: 80vh;
-    margin-left: -100px;
-  }
-  .aboutme{
-    width: 100%;
-    height: 90vh;
-  }
-  .aboutme-container{
-    top: -50;
-    width: 35%;
-    height: 69vh;
-  }
-  .about-me-details{
-    margin-top: -100px;
-    width: 60%;
-    height: 80vh;
-    right: 20px;
-    text-align: center;
-
-  }
-    .text-aboutme{
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin-left: -150px;
-  }
-  .projects{
-    width: 100%;
-    height: 90vh;
-  }
- .image-project{
-    top: 5px;
-    right: -35px;
-    position: relative;
-  }
-  .image-project1{
-    top: 95px;
-    right: 60px;
-    position: relative;
-  }
-  .image-project2{
-    top: 190px;
-    right: 150px;
-    position: relative;
-
-  }
-  .contact{
-    width: 100%;
-    height: 90vh;
-  }
-  .inquire-contact{
-    right: 250px;
-    height: 23vh;
-    
-  }
- .fa-facebook-square{
-    font-size: 120px;
-    text-align: center;
-     top: -30px; 
- }
-  .fa-facebook-square:hover{
-    font-size: 150px;
-    text-align: center;
-    top: -30px;
-    
- }
- .follow-facebook{
-    font-size: 18px;
-    top: -20px;
- }
- .inquire-contact-1{
-    right: 300px;
-    height: 23vh;
-    top: 25px;
-    
-  }
-   .fa-envelope{
-    font-size: 120px;
-    text-align: center;
-     top: -30px; 
- }
-  .fa-envelope:hover{
-    font-size: 150px;
-    text-align: center;
-    top: -30px;
-    
- }
- .follow-gmail{
-    font-size: 18px;
-    top: -20px;
- }
-  .inquire-contact-2{
-    right: 290px;
-    height: 23vh;
-    top: 50px;
-    
-  }
-   .fa-phone{
-    font-size: 100px;
-    text-align: center;
-     top: -30px; 
- }
-  .fa-phone:hover{
-    font-size: 150px;
-    text-align: center;
-    top: -30px;
-    
- }
- .contact-me{
-    font-size: 18px;
-    top: -20px;
- }
- .inquire-contact-3{
-    right: 299px;
-    top: -80px;
- }
- .chat-me{
-    text-align: center;
-    margin-top: -20px;
- }
- .fa-comment-dots{
-    right: 50px;
-    font-size: 45px;
-    width: 10%;
-    height: 5vh;
-    top: -10px;
- }
-  
-
-    
-}
-*/
 /*frame for Desktop also for extra large desktop*/
 @media (min-width: 1200px) and (max-width: 1919px) {
   body {
@@ -1022,14 +868,19 @@ h2{
     right: -35px;
     position: relative;
   }
+    .image-project{
+    top: 70px;
+    right: -80px;
+    position: relative;
+  }
   .image-project1{
-    top: 1px;
-    right: -10px;
+    left: 520px;
+    top: -220px;
     position: relative;
   }
   .image-project2{
-    top: 1px;
-    right: 15px;
+    left: 955px;
+    top: -500px;
     position: relative;
 
   }
