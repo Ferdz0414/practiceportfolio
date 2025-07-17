@@ -259,9 +259,6 @@ nav ul li{
 .navbar-container ul li{
     display: block;
     padding: 20px;
-
-    
-
 }
 #chck-box:checked ~ ul{
     left: 0;
@@ -385,7 +382,6 @@ h2{
 .image-project{
     width: 40vw;
     height: 40vh;
-    display: flex;
     position: relative;
     
 
@@ -399,7 +395,6 @@ h2{
 .image-project1{
     width: 40%;
     height: 40vh;
-    display: flex;
     position: relative;
 
 }
@@ -413,7 +408,6 @@ h2{
 .image-project2{
     width: 40%;
     height: 40vh;
-    display: flex;
     position: relative;
 
 }
