@@ -879,6 +879,7 @@ h2{
   .contact{
     width: 100%;
     height: 90vh;
+    display: block;
   }
   .inquire-contact{
     right: 250px;
@@ -901,9 +902,9 @@ h2{
     top: -20px;
  }
  .inquire-contact-1{
-    right: 300px;
+    right: 320px;
     height: 23vh;
-    top: 25px;
+    top: 35px;
     
   }
    .fa-envelope{
@@ -922,9 +923,9 @@ h2{
     top: -20px;
  }
   .inquire-contact-2{
-    right: 290px;
+    right: 390px;
     height: 23vh;
-    top: 50px;
+    top: 60px;
     
   }
    .fa-phone{
@@ -943,7 +944,7 @@ h2{
     top: -20px;
  }
  .inquire-contact-3{
-    right: 299px;
+    right: 429px;
     top: -80px;
  }
  .chat-me{
