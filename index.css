@@ -434,8 +434,8 @@ h2{
     color: black;
 }
 .contact{
-    width: 100%;
-    height: 80vh;
+    width: 100vw;
+    height: 90vh;
     background-color: white;
     overflow: hidden;
     position: relative;
@@ -592,7 +592,7 @@ h2{
     color: rgb(7, 7, 7);
     display: block;
     font-size: 25px;
-    margin-left: 430px;
+    margin-left: 400px;
     position: relative;
 }
 .chat-me{
@@ -616,7 +616,7 @@ h2{
 .text-message{
     width: 89%;
     height: 5vh;
-    margin-top: 285px;
+    margin-top: 330px;
     border: transparent;
     border-radius: 10px;
     box-shadow: inset 0 0 10px black;
