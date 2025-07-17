@@ -998,21 +998,25 @@ h2{
   .aboutme{
     width: 100vw;
     height: 100vh;
-    display: block;
+    display: flex;
     flex-wrap: wrap;
+  }
+  .titleh1{
+    text-align: center;
+    left: 550px;
   }
   .aboutme-container{
     top: 95px;
-    width: 35%;
+    width: 35vw;
     height: 69vh;
+    left: -50px;
     position: relative;
   }
   .about-me-details{
-    top: 40px;
-    width: 50vw;
+    top: 30px;
+    width: 45vw;
     height: 90vh;
-    right: -10px;
-    text-align: center;
+    right: -80px;
     position: relative;
 
   }
@@ -1021,7 +1025,7 @@ h2{
     justify-content: center;
     display: flex;
     align-items: center;
-    margin-left: -150px;
+    margin-left: 100px;
   }
   .text-aboutme-paragraph{
     font-size: 18px;
