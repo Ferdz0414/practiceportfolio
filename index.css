@@ -493,14 +493,14 @@ h2{
 }
 .inquire-contact-3{
     width: 40%;
-    height: 40vh;
+    height: 42vh;
     border: none;
     border-radius: 10px;
     box-shadow:0 0 10px black;
     background-color: rgb(248, 248, 248);
     position: relative;
     right: -490px;
-    top: 100px;
+    top: 90px;
 }
 .fa-comment-dots{
     border: none;
@@ -539,7 +539,7 @@ h2{
     cursor: pointer;
     position: relative;
     left: 285px;
-    bottom: -181px;
+    bottom: -185px;
 }
 .btn-message:hover{
     background-color: aqua;
