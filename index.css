@@ -460,7 +460,7 @@ h2{
     display: inline-flex;
     align-items: center;
     flex-wrap: wrap;
-    left: 450px;
+    left: 400px;
     top: 20px;
 }
 #facebook-icon, .fa-envelope, .fa-phone{
@@ -492,11 +492,11 @@ h2{
 }
 .inquire-contact-3{
     width: 40%;
-    height: 42vh;
+    height: 44vh;
     box-shadow:0 0 10px black;
     background-color: rgb(248, 248, 248);
     position: relative;
-    right: -490px;
+    right: -550px;
     top: 50px;
 }
 .fa-comment-dots{
