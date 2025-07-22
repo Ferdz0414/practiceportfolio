@@ -192,7 +192,7 @@ body{
 }
 .image-container img{
     width: 50%;
-    height: 90vh;
+    height: 70vh;
     border-radius: 20px;
     box-shadow: inset rgb(26, 25, 25) 0 0 10px;
     filter: drop-shadow(50%);
@@ -278,13 +278,9 @@ display: none;
     position: relative;
 }
 .aboutme-container{
-    width: 30%;
-    height: 70vh;
-    background-color: rgb(14, 13, 13);
     border-radius: 5px;
-    left: 50px;
-    box-shadow: inset 0 0 10px white;
     position: relative;
+    right: 450px;
 }
 .titleh1{
     font-size: 25px;
@@ -338,7 +334,7 @@ h2{
 }
 .about-me-details{
     color: white;
-    top: -490px;
+    top: -430px;
     border: transparent;
     border-radius: 5px;
     display: inline-block;
@@ -503,8 +499,8 @@ h2{
     box-shadow:0 0 10px black;
     background-color: rgb(248, 248, 248);
     position: relative;
-    left: 650px;
-    top: 70px;
+    left: 600px;
+    top: 30px;
 }
 .fa-comment-dots{
     border: none;
@@ -610,7 +606,7 @@ h2{
     border: transparent;
     border-radius: 10px;
     box-shadow: inset  0 0 10px black;
-    width: 420px;
+    width: 390px;
     height: 3vh;
     text-align: center;
     padding: 5px;
@@ -635,7 +631,7 @@ h2{
     border: transparent;
     border-radius: 10px;
     box-shadow: inset  0 0 10px black;
-    width: 420px;
+    width: 390px;
     height: 3vh;
     text-align: center;
     padding: 5px;
